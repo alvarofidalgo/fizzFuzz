@@ -1,0 +1,15 @@
+{
+  "name": "validator",
+  "version": "0.1.0",
+  "description": "Course testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "author": "Alvaro Fidalgo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
